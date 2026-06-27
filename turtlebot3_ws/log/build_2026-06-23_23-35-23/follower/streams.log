@@ -1,0 +1,29 @@
+[4.598s] Invoking command in '/home/benja/turtlebot3_ws/build/follower': CMAKE_PREFIX_PATH=/home/benja/turtlebot3_ws/install/turtlebot3_gazebo:/home/benja/turtlebot3_ws/install/turtlebot3:/home/benja/turtlebot3_ws/install/turtlebot3_simulations:/home/benja/turtlebot3_ws/install/turtlebot3_bringup:/home/benja/turtlebot3_ws/install/turtlebot3_node:/home/benja/turtlebot3_ws/install/turtlebot3_navigation2:/home/benja/turtlebot3_ws/install/turtlebot3_fake_node:/home/benja/turtlebot3_ws/install/turtlebot3_msgs:/home/benja/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/benja/turtlebot3_ws/install/turtlebot3_description:/home/benja/turtlebot3_ws/install/turtlebot3_cartographer:/home/benja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/benja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/benja/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/benja/turtlebot3_ws/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/build/follower/build --no-deps symlink_data
+[5.471s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.472s]   warnings.warn(
+[5.589s] running develop
+[6.254s] running egg_info
+[6.254s] creating follower.egg-info
+[6.255s] writing follower.egg-info/PKG-INFO
+[6.256s] writing dependency_links to follower.egg-info/dependency_links.txt
+[6.257s] writing entry points to follower.egg-info/entry_points.txt
+[6.258s] writing requirements to follower.egg-info/requires.txt
+[6.258s] writing top-level names to follower.egg-info/top_level.txt
+[6.259s] writing manifest file 'follower.egg-info/SOURCES.txt'
+[6.263s] reading manifest file 'follower.egg-info/SOURCES.txt'
+[6.264s] writing manifest file 'follower.egg-info/SOURCES.txt'
+[6.269s] running build_ext
+[6.269s] Creating /home/benja/turtlebot3_ws/install/follower/lib/python3.10/site-packages/follower.egg-link (link to .)
+[6.272s] Installing follower_node script to /home/benja/turtlebot3_ws/install/follower/lib/follower
+[6.273s] Installing tester script to /home/benja/turtlebot3_ws/install/follower/lib/follower
+[6.274s] 
+[6.275s] Installed /home/benja/turtlebot3_ws/build/follower
+[6.276s] running symlink_data
+[6.276s] creating /home/benja/turtlebot3_ws/install/follower/share/ament_index
+[6.276s] creating /home/benja/turtlebot3_ws/install/follower/share/ament_index/resource_index
+[6.276s] creating /home/benja/turtlebot3_ws/install/follower/share/ament_index/resource_index/packages
+[6.276s] symbolically linking /home/benja/turtlebot3_ws/build/follower/resource/follower -> /home/benja/turtlebot3_ws/install/follower/share/ament_index/resource_index/packages
+[6.276s] symbolically linking /home/benja/turtlebot3_ws/build/follower/package.xml -> /home/benja/turtlebot3_ws/install/follower/share/follower
+[6.277s] symbolically linking /home/benja/turtlebot3_ws/build/follower/launch/new_track.launch.py -> /home/benja/turtlebot3_ws/install/follower/share/follower
+[6.277s] symbolically linking /home/benja/turtlebot3_ws/build/follower/worlds/new_track.world -> /home/benja/turtlebot3_ws/install/follower/share/follower
+[6.392s] Invoked command in '/home/benja/turtlebot3_ws/build/follower' returned '0': CMAKE_PREFIX_PATH=/home/benja/turtlebot3_ws/install/turtlebot3_gazebo:/home/benja/turtlebot3_ws/install/turtlebot3:/home/benja/turtlebot3_ws/install/turtlebot3_simulations:/home/benja/turtlebot3_ws/install/turtlebot3_bringup:/home/benja/turtlebot3_ws/install/turtlebot3_node:/home/benja/turtlebot3_ws/install/turtlebot3_navigation2:/home/benja/turtlebot3_ws/install/turtlebot3_fake_node:/home/benja/turtlebot3_ws/install/turtlebot3_msgs:/home/benja/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/benja/turtlebot3_ws/install/turtlebot3_description:/home/benja/turtlebot3_ws/install/turtlebot3_cartographer:/home/benja/turtlebot3_ws/install/dynamixel_sdk_examples:/home/benja/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/benja/turtlebot3_ws/install/dynamixel_sdk PYTHONPATH=/home/benja/turtlebot3_ws/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/build/follower/build --no-deps symlink_data

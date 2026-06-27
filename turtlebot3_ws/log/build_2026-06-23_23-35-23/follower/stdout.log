@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating follower.egg-info
+writing follower.egg-info/PKG-INFO
+writing dependency_links to follower.egg-info/dependency_links.txt
+writing entry points to follower.egg-info/entry_points.txt
+writing requirements to follower.egg-info/requires.txt
+writing top-level names to follower.egg-info/top_level.txt
+writing manifest file 'follower.egg-info/SOURCES.txt'
+reading manifest file 'follower.egg-info/SOURCES.txt'
+writing manifest file 'follower.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/benja/turtlebot3_ws/install/follower/lib/python3.10/site-packages/follower.egg-link (link to .)
+Installing follower_node script to /home/benja/turtlebot3_ws/install/follower/lib/follower
+Installing tester script to /home/benja/turtlebot3_ws/install/follower/lib/follower
+
+Installed /home/benja/turtlebot3_ws/build/follower
+running symlink_data
+creating /home/benja/turtlebot3_ws/install/follower/share/ament_index
+creating /home/benja/turtlebot3_ws/install/follower/share/ament_index/resource_index
+creating /home/benja/turtlebot3_ws/install/follower/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/build/follower/resource/follower -> /home/benja/turtlebot3_ws/install/follower/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/build/follower/package.xml -> /home/benja/turtlebot3_ws/install/follower/share/follower
+symbolically linking /home/benja/turtlebot3_ws/build/follower/launch/new_track.launch.py -> /home/benja/turtlebot3_ws/install/follower/share/follower
+symbolically linking /home/benja/turtlebot3_ws/build/follower/worlds/new_track.world -> /home/benja/turtlebot3_ws/install/follower/share/follower

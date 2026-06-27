@@ -1,0 +1,7 @@
+/home/benja/turtlebot3_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/SensorState.idl
+/home/benja/turtlebot3_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/Sound.idl
+/home/benja/turtlebot3_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/VersionInfo.idl
+/home/benja/turtlebot3_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Sound.idl
+/home/benja/turtlebot3_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Dqn.idl
+/home/benja/turtlebot3_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Goal.idl
+/home/benja/turtlebot3_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:action/Patrol.idl

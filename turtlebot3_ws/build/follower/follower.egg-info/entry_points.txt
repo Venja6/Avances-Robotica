@@ -1,0 +1,5 @@
+[console_scripts]
+follower_node = follower.follower_node:main
+line_map_node = follower.line_map_node:main
+tester = follower.test_topic:main
+
