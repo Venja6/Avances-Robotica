@@ -1,0 +1,33 @@
+[0.062s] Invoking command in '/home/benja/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[1.150s] Invoked command in '/home/benja/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/turtlebot3_navigation2 -- -j12 -l12
+[1.158s] Invoking command in '/home/benja/turtlebot3_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/turtlebot3_navigation2
+[1.191s] -- Install configuration: ""
+[1.192s] -- Execute custom install script
+[1.194s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
+[1.196s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
+[1.196s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+[1.197s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
+[1.198s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger_cam.yaml
+[1.199s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger.yaml
+[1.199s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/burger_cam.yaml
+[1.199s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle.yaml
+[1.200s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/humble/waffle_pi.yaml
+[1.201s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
+[1.201s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml
+[1.202s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/rviz/tb3_navigation2.rviz
+[1.202s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/package_run_dependencies/turtlebot3_navigation2
+[1.202s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2
+[1.204s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.sh
+[1.205s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/ament_prefix_path.dsv
+[1.206s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.sh
+[1.206s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/environment/path.dsv
+[1.206s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.bash
+[1.206s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.sh
+[1.206s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.zsh
+[1.208s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/local_setup.dsv
+[1.209s] -- Symlinking: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv
+[1.237s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/ament_index/resource_index/packages/turtlebot3_navigation2
+[1.239s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config.cmake
+[1.269s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/cmake/turtlebot3_navigation2Config-version.cmake
+[1.269s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.xml
+[1.329s] Invoked command in '/home/benja/turtlebot3_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/turtlebot3_navigation2

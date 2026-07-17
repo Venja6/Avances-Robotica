@@ -1,0 +1,25 @@
+[0.123s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/line_follower_worlds -- -j12 -l12
+[0.727s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/line_follower_worlds -- -j12 -l12
+[0.728s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/line_follower_worlds
+[0.751s] -- Install configuration: ""
+[0.751s] -- Execute custom install script
+[0.753s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/default.world
+[0.753s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/empty_world.world
+[0.753s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/line_follower.world
+[0.754s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/sample.world
+[0.754s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/ament_index/resource_index/package_run_dependencies/line_follower_worlds
+[0.755s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/ament_index/resource_index/parent_prefix_path/line_follower_worlds
+[0.755s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/ament_prefix_path.sh
+[0.755s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/ament_prefix_path.dsv
+[0.755s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/path.sh
+[0.756s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/path.dsv
+[0.757s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.bash
+[0.759s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.sh
+[0.762s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.zsh
+[0.763s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.dsv
+[0.763s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/package.dsv
+[0.768s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/ament_index/resource_index/packages/line_follower_worlds
+[0.769s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/cmake/line_follower_worldsConfig.cmake
+[0.770s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/cmake/line_follower_worldsConfig-version.cmake
+[0.770s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/package.xml
+[0.824s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/line_follower_worlds

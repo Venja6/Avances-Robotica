@@ -1,0 +1,56 @@
+[2.850s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_description': PYTHONPATH=/home/benja/turtlebot3_ws/build/line_follower_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/install/line_follower_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/build/line_follower_description/build --no-deps symlink_data
+[3.180s] running develop
+[3.389s] running egg_info
+[3.389s] creating line_follower_description.egg-info
+[3.389s] writing line_follower_description.egg-info/PKG-INFO
+[3.389s] writing dependency_links to line_follower_description.egg-info/dependency_links.txt
+[3.389s] writing entry points to line_follower_description.egg-info/entry_points.txt
+[3.390s] writing requirements to line_follower_description.egg-info/requires.txt
+[3.390s] writing top-level names to line_follower_description.egg-info/top_level.txt
+[3.390s] writing manifest file 'line_follower_description.egg-info/SOURCES.txt'
+[3.392s] reading manifest file 'line_follower_description.egg-info/SOURCES.txt'
+[3.393s] writing manifest file 'line_follower_description.egg-info/SOURCES.txt'
+[3.394s] running build_ext
+[3.394s] Creating /home/benja/turtlebot3_ws/install/line_follower_description/lib/python3.10/site-packages/line-follower-description.egg-link (link to .)
+[3.395s] 
+[3.395s] Installed /home/benja/turtlebot3_ws/build/line_follower_description
+[3.395s] running symlink_data
+[3.395s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/ament_index
+[3.395s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/ament_index/resource_index
+[3.395s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/ament_index/resource_index/packages
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/resource/line_follower_description -> /home/benja/turtlebot3_ws/install/line_follower_description/share/ament_index/resource_index/packages
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/package.xml -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description
+[3.396s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/launch
+[3.396s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/drone.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/robot.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/camera.plugin.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/line_follower.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/line_follower.gazebo.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/plugins.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/common.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/sample_urdf/variables.urdf.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/sample_urdf
+[3.396s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.396s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/robot_urdf/base_footprint.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/robot_urdf/camera.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/robot_urdf/line_follower.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/robot_urdf/line_follower.trans -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/robot_urdf/plugins.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/robot_urdf/line_follower.gazebo -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/robot_urdf/materials.xacro -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/robot_urdf
+[3.397s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_clamp_3_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_clamp_2_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_1_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_clamp_4_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_3_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/base_link.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_4_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.397s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_2_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.398s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/depth_camera_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.398s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/meshes/wheel_clamp_1_1.stl -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/meshes
+[3.398s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/config
+[3.398s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/config/old_display.rviz -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/config
+[3.398s] symbolically linking /home/benja/turtlebot3_ws/build/line_follower_description/config/display.rviz -> /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/config
+[3.398s] creating /home/benja/turtlebot3_ws/install/line_follower_description/share/line_follower_description/worlds
+[3.424s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_description' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/build/line_follower_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/install/line_follower_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/build/line_follower_description/build --no-deps symlink_data

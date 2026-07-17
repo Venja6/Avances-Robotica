@@ -1,0 +1,45 @@
+[0.137s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/install/line_follower_worlds
+[0.202s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.290s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.365s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.365s] -- Detecting C compile features
+[0.365s] -- Detecting C compile features - done
+[0.368s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.455s] -- Detecting CXX compile features
+[0.456s] -- Detecting CXX compile features - done
+[0.460s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.628s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.695s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.902s] -- Configuring done
+[0.908s] -- Generating done
+[0.908s] -- Build files have been written to: /home/benja/turtlebot3_ws/build/line_follower_worlds
+[0.919s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/install/line_follower_worlds
+[0.923s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/line_follower_worlds -- -j12 -l12
+[1.017s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/line_follower_worlds -- -j12 -l12
+[1.019s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/line_follower_worlds
+[1.034s] -- Install configuration: ""
+[1.035s] -- Execute custom install script
+[1.036s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/default.world
+[1.052s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/empty_world.world
+[1.069s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/line_follower.world
+[1.086s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/worlds/sample.world
+[1.101s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/ament_index/resource_index/package_run_dependencies/line_follower_worlds
+[1.122s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/ament_index/resource_index/parent_prefix_path/line_follower_worlds
+[1.139s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/ament_prefix_path.sh
+[1.160s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/ament_prefix_path.dsv
+[1.170s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/path.sh
+[1.182s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/environment/path.dsv
+[1.193s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.bash
+[1.207s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.sh
+[1.221s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.zsh
+[1.234s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/local_setup.dsv
+[1.245s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/package.dsv
+[1.257s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/ament_index/resource_index/packages/line_follower_worlds
+[1.268s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/cmake/line_follower_worldsConfig.cmake
+[1.280s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/cmake/line_follower_worldsConfig-version.cmake
+[1.292s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_worlds/share/line_follower_worlds/package.xml
+[1.308s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/line_follower_worlds

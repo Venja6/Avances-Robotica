@@ -1,0 +1,1 @@
+/home/benja/turtlebot3_ws/build/line_follower_bringup/ament_cmake_environment_hooks/local_setup.sh

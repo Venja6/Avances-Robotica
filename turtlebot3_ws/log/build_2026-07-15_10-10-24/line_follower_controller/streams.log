@@ -1,0 +1,18 @@
+[2.746s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_controller': PYTHONPATH=/home/benja/turtlebot3_ws/build/line_follower_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/install/line_follower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/build/line_follower_controller/build --no-deps symlink_data
+[3.081s] running develop
+[3.299s] running egg_info
+[3.299s] writing line_follower_controller.egg-info/PKG-INFO
+[3.299s] writing dependency_links to line_follower_controller.egg-info/dependency_links.txt
+[3.300s] writing entry points to line_follower_controller.egg-info/entry_points.txt
+[3.300s] writing requirements to line_follower_controller.egg-info/requires.txt
+[3.300s] writing top-level names to line_follower_controller.egg-info/top_level.txt
+[3.302s] reading manifest file 'line_follower_controller.egg-info/SOURCES.txt'
+[3.303s] writing manifest file 'line_follower_controller.egg-info/SOURCES.txt'
+[3.305s] running build_ext
+[3.306s] Creating /home/benja/turtlebot3_ws/install/line_follower_controller/lib/python3.10/site-packages/line-follower-controller.egg-link (link to .)
+[3.306s] Installing image_recorder script to /home/benja/turtlebot3_ws/install/line_follower_controller/lib/line_follower_controller
+[3.307s] Installing line_follower script to /home/benja/turtlebot3_ws/install/line_follower_controller/lib/line_follower_controller
+[3.307s] 
+[3.307s] Installed /home/benja/turtlebot3_ws/build/line_follower_controller
+[3.307s] running symlink_data
+[3.339s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_controller' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/build/line_follower_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/install/line_follower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/build/line_follower_controller/build --no-deps symlink_data

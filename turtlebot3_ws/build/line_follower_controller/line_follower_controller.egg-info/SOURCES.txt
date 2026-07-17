@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+line_follower_controller/__init__.py
+line_follower_controller/image_processing.py
+line_follower_controller/image_recorder_node.py
+line_follower_controller/line_follower_node.py
+line_follower_controller.egg-info/PKG-INFO
+line_follower_controller.egg-info/SOURCES.txt
+line_follower_controller.egg-info/dependency_links.txt
+line_follower_controller.egg-info/entry_points.txt
+line_follower_controller.egg-info/requires.txt
+line_follower_controller.egg-info/top_level.txt
+line_follower_controller.egg-info/zip-safe
+resource/line_follower_controller

@@ -1,0 +1,46 @@
+[0.608s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/install/line_follower_bringup
+[1.140s] -- The C compiler identification is GNU 11.4.0
+[1.140s] -- The CXX compiler identification is GNU 11.4.0
+[1.140s] -- Detecting C compiler ABI info
+[1.140s] -- Detecting C compiler ABI info - done
+[1.141s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.141s] -- Detecting C compile features
+[1.141s] -- Detecting C compile features - done
+[1.141s] -- Detecting CXX compiler ABI info
+[1.141s] -- Detecting CXX compiler ABI info - done
+[1.141s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.141s] -- Detecting CXX compile features
+[1.142s] -- Detecting CXX compile features - done
+[1.142s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.143s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.359s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.424s] -- Configuring done
+[1.424s] -- Generating done
+[1.427s] -- Build files have been written to: /home/benja/turtlebot3_ws/build/line_follower_bringup
+[1.521s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/install/line_follower_bringup
+[1.522s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/line_follower_bringup -- -j12 -l12
+[2.174s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/line_follower_bringup -- -j12 -l12
+[2.176s] Invoking command in '/home/benja/turtlebot3_ws/build/line_follower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/line_follower_bringup
+[2.192s] -- Install configuration: ""
+[2.192s] -- Execute custom install script
+[2.192s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/launch/display.launch.py
+[2.218s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/launch/gazebo.launch.py
+[2.239s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/launch/gazebo_with_rviz.launch.py
+[2.253s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/launch/ignition.launch.py
+[2.275s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/launch/robot.launch.py
+[2.293s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/ament_index/resource_index/package_run_dependencies/line_follower_bringup
+[2.318s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/ament_index/resource_index/parent_prefix_path/line_follower_bringup
+[2.334s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/environment/ament_prefix_path.sh
+[2.353s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/environment/ament_prefix_path.dsv
+[2.369s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/environment/path.sh
+[2.385s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/environment/path.dsv
+[2.404s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/local_setup.bash
+[2.419s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/local_setup.sh
+[2.440s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/local_setup.zsh
+[2.451s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/local_setup.dsv
+[2.466s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/package.dsv
+[2.484s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/ament_index/resource_index/packages/line_follower_bringup
+[2.500s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/cmake/line_follower_bringupConfig.cmake
+[2.517s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/cmake/line_follower_bringupConfig-version.cmake
+[2.538s] -- Symlinking: /home/benja/turtlebot3_ws/install/line_follower_bringup/share/line_follower_bringup/package.xml
+[2.581s] Invoked command in '/home/benja/turtlebot3_ws/build/line_follower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/line_follower_bringup
