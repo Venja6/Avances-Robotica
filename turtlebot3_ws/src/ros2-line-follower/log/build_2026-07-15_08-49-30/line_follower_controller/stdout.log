@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating line_follower_controller.egg-info
+writing line_follower_controller.egg-info/PKG-INFO
+writing dependency_links to line_follower_controller.egg-info/dependency_links.txt
+writing entry points to line_follower_controller.egg-info/entry_points.txt
+writing requirements to line_follower_controller.egg-info/requires.txt
+writing top-level names to line_follower_controller.egg-info/top_level.txt
+writing manifest file 'line_follower_controller.egg-info/SOURCES.txt'
+reading manifest file 'line_follower_controller.egg-info/SOURCES.txt'
+writing manifest file 'line_follower_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib/python3.10/site-packages/line-follower-controller.egg-link (link to .)
+Installing image_recorder script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib/line_follower_controller
+Installing line_follower script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib/line_follower_controller
+
+Installed /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller
+running symlink_data
+creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/ament_index
+creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/ament_index/resource_index
+creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/resource/line_follower_controller -> /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/package.xml -> /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller

@@ -1,0 +1,51 @@
+[0.792s] Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models
+[0.857s] -- The C compiler identification is GNU 11.4.0
+[0.924s] -- The CXX compiler identification is GNU 11.4.0
+[0.933s] -- Detecting C compiler ABI info
+[1.024s] -- Detecting C compiler ABI info - done
+[1.040s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.040s] -- Detecting C compile features
+[1.041s] -- Detecting C compile features - done
+[1.047s] -- Detecting CXX compiler ABI info
+[1.155s] -- Detecting CXX compiler ABI info - done
+[1.171s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.172s] -- Detecting CXX compile features
+[1.172s] -- Detecting CXX compile features - done
+[1.179s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.400s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.500s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.639s] -- Configuring done
+[1.643s] -- Generating done
+[1.646s] -- Build files have been written to: /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models
+[1.652s] Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models
+[1.653s] Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models -- -j12 -l12
+[1.700s] Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models -- -j12 -l12
+[1.702s] Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models
+[1.712s] -- Install configuration: ""
+[1.712s] -- Execute custom install script
+[1.714s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/line_path_ground_plane/materials/scripts/line_path_ground_plane.material
+[1.725s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/line_path_ground_plane/materials/textures/line_path.png
+[1.736s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/line_path_ground_plane/materials/textures/path_1.png
+[1.747s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/line_path_ground_plane/materials/textures/path_2.png
+[1.757s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/line_path_ground_plane/model.config
+[1.767s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/line_path_ground_plane/model.sdf
+[1.780s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/materials/scripts/line_path_ground_plane.material
+[1.793s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/materials/textures/line_path.png
+[1.805s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/materials/textures/path_1.png
+[1.816s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/models/materials/textures/path_2.png
+[1.827s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/ament_index/resource_index/package_run_dependencies/line_follower_models
+[1.838s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/ament_index/resource_index/parent_prefix_path/line_follower_models
+[1.849s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/environment/ament_prefix_path.sh
+[1.859s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/environment/ament_prefix_path.dsv
+[1.869s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/environment/path.sh
+[1.879s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/environment/path.dsv
+[1.890s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/local_setup.bash
+[1.901s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/local_setup.sh
+[1.913s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/local_setup.zsh
+[1.923s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/local_setup.dsv
+[1.934s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.dsv
+[1.943s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/ament_index/resource_index/packages/line_follower_models
+[1.954s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/cmake/line_follower_modelsConfig.cmake
+[1.963s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/cmake/line_follower_modelsConfig-version.cmake
+[1.972s] -- Symlinking: /home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.xml
+[1.985s] Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models

@@ -1,0 +1,438 @@
+[0.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x788d14974970>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x788d14974370>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x788d14974370>>, mixin_verb=('build',))
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.513s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/benja/turtlebot3_ws/src/ros2-line-follower'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extensions ['colcon_meta']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extension 'colcon_meta'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extensions ['ros']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(follower) by extension 'ros'
+[0.526s] DEBUG:colcon.colcon_core.package_identification:Package 'follower' with type 'ros.ament_python' and name 'follower'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'ros'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extensions ['cmake', 'python']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'cmake'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'python'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extensions ['python_setup_py']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)) by extension 'python_setup_py'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_bringup) by extension 'ros'
+[0.528s] DEBUG:colcon.colcon_core.package_identification:Package 'follower2 (MyW)/line_follower_bringup' with type 'ros.ament_cmake' and name 'line_follower_bringup'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_controller) by extension 'ros'
+[0.529s] DEBUG:colcon.colcon_core.package_identification:Package 'follower2 (MyW)/line_follower_controller' with type 'ros.ament_python' and name 'line_follower_controller'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_description) by extension 'ros'
+[0.531s] DEBUG:colcon.colcon_core.package_identification:Package 'follower2 (MyW)/line_follower_description' with type 'ros.ament_python' and name 'line_follower_description'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_models) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'follower2 (MyW)/line_follower_models' with type 'ros.ament_cmake' and name 'line_follower_models'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(follower2 (MyW)/line_follower_worlds) by extension 'ros'
+[0.532s] DEBUG:colcon.colcon_core.package_identification:Package 'follower2 (MyW)/line_follower_worlds' with type 'ros.ament_cmake' and name 'line_follower_worlds'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.533s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.568s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.574s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 22 installed packages in /home/benja/turtlebot3_ws/install
+[0.575s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/benja/turtlebot3_ws/src/ros2-line-follower/follower/follower/install
+[0.576s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 370 installed packages in /opt/ros/humble
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.643s] DEBUG:colcon.colcon_core.verb:Building package 'follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower', 'merge_install': False, 'path': '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower', 'symlink_install': True, 'test_result_base': None}
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_target' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.643s] Level 5:colcon.colcon_core.verb:set package 'line_follower_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.643s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup', 'merge_install': False, 'path': '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller', 'merge_install': False, 'path': '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_controller', 'symlink_install': True, 'test_result_base': None}
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_target' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.644s] Level 5:colcon.colcon_core.verb:set package 'line_follower_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.644s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description', 'merge_install': False, 'path': '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_description', 'symlink_install': True, 'test_result_base': None}
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'cmake_target' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'cmake_clean_cache' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'cmake_clean_first' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'cmake_force_configure' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'ament_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'catkin_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_models' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.645s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_models' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models', 'merge_install': False, 'path': '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_models', 'symlink_install': True, 'test_result_base': None}
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'cmake_target' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[0.645s] Level 5:colcon.colcon_core.verb:set package 'line_follower_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.645s] DEBUG:colcon.colcon_core.verb:Building package 'line_follower_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds', 'merge_install': False, 'path': '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_worlds', 'symlink_install': True, 'test_result_base': None}
+[0.645s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.646s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower' with build type 'ament_python'
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('follower', 'ament_prefix_path')
+[0.651s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/hook/ament_prefix_path.ps1'
+[0.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/hook/ament_prefix_path.dsv'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/hook/ament_prefix_path.sh'
+[0.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_bringup' with build type 'ament_cmake'
+[0.659s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_bringup'
+[0.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.664s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_controller' with build type 'ament_python'
+[0.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_controller', 'ament_prefix_path')
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/hook/ament_prefix_path.ps1'
+[0.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/hook/ament_prefix_path.dsv'
+[0.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/hook/ament_prefix_path.sh'
+[0.666s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.666s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.671s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_description' with build type 'ament_python'
+[0.671s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_description', 'ament_prefix_path')
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/hook/ament_prefix_path.ps1'
+[0.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/hook/ament_prefix_path.dsv'
+[0.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/hook/ament_prefix_path.sh'
+[0.672s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.672s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.680s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_models' with build type 'ament_cmake'
+[0.680s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_models'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.686s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_worlds' with build type 'ament_cmake'
+[0.686s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_worlds'
+[0.686s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.686s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.945s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower'
+[0.945s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.945s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup
+[1.211s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_controller'
+[1.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.465s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_description'
+[1.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds
+[1.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup
+[1.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup -- -j12 -l12
+[1.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup -- -j12 -l12
+[1.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup
+[2.058s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: test, build_scripts, install_egg_info, build, easy_install, upload_docs, build_ext, sdist, update_catalog, install_lib, bdist_rpm, bdist_egg, install, upload, clean, register, bdist_dumb, alias, rotate, build_py, bdist, check, extract_messages, init_catalog, compile_catalog, setopt, dist_info, build_clib, saveopts, install_data, install_scripts, develop, install_headers, egg_info, symlink_data
+[2.060s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: test, build_scripts, install_egg_info, build, easy_install, upload_docs, build_ext, sdist, update_catalog, install_lib, bdist_rpm, bdist_egg, install, upload, clean, register, bdist_dumb, alias, rotate, build_py, bdist, check, extract_messages, init_catalog, compile_catalog, setopt, dist_info, build_clib, saveopts, install_data, install_scripts, develop, install_headers, egg_info, symlink_data
+[2.061s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: test, build_scripts, install_egg_info, build, easy_install, upload_docs, build_ext, sdist, update_catalog, install_lib, bdist_rpm, bdist_egg, install, upload, clean, register, bdist_dumb, alias, rotate, build_py, bdist, check, extract_messages, init_catalog, compile_catalog, setopt, dist_info, build_clib, saveopts, install_data, install_scripts, develop, install_headers, egg_info, symlink_data
+[2.094s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_bringup)
+[2.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_bringup
+[2.102s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup' for CMake module files
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup' for CMake config files
+[2.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_bringup', 'cmake_prefix_path')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.dsv'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.sh'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/bin'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/lib/pkgconfig/line_follower_bringup.pc'
+[2.107s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/lib/python3.10/site-packages'
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/bin'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.ps1'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.dsv'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.sh'
+[2.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.bash'
+[2.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.zsh'
+[2.117s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/colcon-core/packages/line_follower_bringup)
+[2.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_bringup)
+[2.119s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup' for CMake module files
+[2.120s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup' for CMake config files
+[2.120s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_bringup', 'cmake_prefix_path')
+[2.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.ps1'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.dsv'
+[2.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/hook/cmake_prefix_path.sh'
+[2.122s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/bin'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/lib/pkgconfig/line_follower_bringup.pc'
+[2.123s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/lib/python3.10/site-packages'
+[2.124s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/bin'
+[2.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.ps1'
+[2.126s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.dsv'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.sh'
+[2.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.bash'
+[2.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/line_follower_bringup/package.zsh'
+[2.129s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_bringup/share/colcon-core/packages/line_follower_bringup)
+[2.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_models -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models
+[2.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models -- -j12 -l12
+[2.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/ros2-line-follower/follower2 (MyW)/line_follower_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds
+[2.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds -- -j12 -l12
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models -- -j12 -l12
+[2.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models
+[2.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds -- -j12 -l12
+[2.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds
+[2.416s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --install-dir, --zip-ok, --editable, --always-copy, --site-dirs, --version, --multi-version, --no-deps, --install-layout, --verbose, --upgrade, --no-user-cfg, --prefix, --quiet, --always-unzip, --record, --local-snapshots-ok, --egg-path, --dry-run, --allow-hosts, --index-url, --exclude-scripts, --build-directory, --uninstall, --user, --force-installation-into-system-dir, --no-find-links, --optimize, --script-dir, --find-links, --help
+[2.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/build --no-deps symlink_data
+[2.429s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --install-dir, --zip-ok, --editable, --always-copy, --site-dirs, --version, --multi-version, --no-deps, --install-layout, --verbose, --upgrade, --no-user-cfg, --prefix, --quiet, --always-unzip, --record, --local-snapshots-ok, --egg-path, --dry-run, --allow-hosts, --index-url, --exclude-scripts, --build-directory, --uninstall, --user, --force-installation-into-system-dir, --no-find-links, --optimize, --script-dir, --find-links, --help
+[2.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/build --no-deps symlink_data
+[2.437s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --install-dir, --zip-ok, --editable, --always-copy, --site-dirs, --version, --multi-version, --no-deps, --install-layout, --verbose, --upgrade, --no-user-cfg, --prefix, --quiet, --always-unzip, --record, --local-snapshots-ok, --egg-path, --dry-run, --allow-hosts, --index-url, --exclude-scripts, --build-directory, --uninstall, --user, --force-installation-into-system-dir, --no-find-links, --optimize, --script-dir, --find-links, --help
+[2.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description/build --no-deps symlink_data
+[2.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_worlds)
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds' for CMake module files
+[2.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_worlds
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds' for CMake config files
+[2.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_worlds', 'cmake_prefix_path')
+[2.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/hook/cmake_prefix_path.ps1'
+[2.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/hook/cmake_prefix_path.dsv'
+[2.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/hook/cmake_prefix_path.sh'
+[2.630s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/bin'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/lib/pkgconfig/line_follower_worlds.pc'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/lib/python3.10/site-packages'
+[2.631s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/bin'
+[2.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.ps1'
+[2.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.dsv'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.sh'
+[2.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.bash'
+[2.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.zsh'
+[2.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/colcon-core/packages/line_follower_worlds)
+[2.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_worlds)
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds' for CMake module files
+[2.637s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds' for CMake config files
+[2.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_worlds', 'cmake_prefix_path')
+[2.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/hook/cmake_prefix_path.ps1'
+[2.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/hook/cmake_prefix_path.dsv'
+[2.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/hook/cmake_prefix_path.sh'
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/bin'
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/lib/pkgconfig/line_follower_worlds.pc'
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/lib/python3.10/site-packages'
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/bin'
+[2.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.ps1'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.dsv'
+[2.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.sh'
+[2.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.bash'
+[2.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/line_follower_worlds/package.zsh'
+[2.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_worlds/share/colcon-core/packages/line_follower_worlds)
+[2.665s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_models)
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models' for CMake module files
+[2.666s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_models
+[2.666s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models' for CMake config files
+[2.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_models', 'cmake_prefix_path')
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/hook/cmake_prefix_path.ps1'
+[2.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/hook/cmake_prefix_path.dsv'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/hook/cmake_prefix_path.sh'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/bin'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/lib/pkgconfig/line_follower_models.pc'
+[2.668s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/lib/python3.10/site-packages'
+[2.669s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/bin'
+[2.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.ps1'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.dsv'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.sh'
+[2.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.bash'
+[2.671s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.zsh'
+[2.671s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/colcon-core/packages/line_follower_models)
+[2.671s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_models)
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models' for CMake module files
+[2.672s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models' for CMake config files
+[2.673s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_models', 'cmake_prefix_path')
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/hook/cmake_prefix_path.ps1'
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/hook/cmake_prefix_path.dsv'
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/hook/cmake_prefix_path.sh'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/bin'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/lib/pkgconfig/line_follower_models.pc'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/lib/python3.10/site-packages'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/bin'
+[2.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.ps1'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.dsv'
+[2.677s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.sh'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.bash'
+[2.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/line_follower_models/package.zsh'
+[2.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_models/share/colcon-core/packages/line_follower_models)
+[2.944s] Level 1:colcon.colcon_core.shell:create_environment_hook('follower', 'pythonpath_develop')
+[2.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/share/follower/hook/pythonpath_develop.ps1'
+[2.946s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/share/follower/hook/pythonpath_develop.dsv'
+[2.947s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/share/follower/hook/pythonpath_develop.sh'
+[2.948s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower' for CMake module files
+[2.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/build --no-deps symlink_data
+[2.949s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower' for CMake config files
+[2.951s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib'
+[2.951s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/bin'
+[2.951s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/pkgconfig/follower.pc'
+[2.952s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages'
+[2.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('follower', 'pythonpath')
+[2.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/hook/pythonpath.ps1'
+[2.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/hook/pythonpath.dsv'
+[2.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/hook/pythonpath.sh'
+[2.954s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/bin'
+[2.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follower)
+[2.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/package.ps1'
+[2.955s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/package.dsv'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/package.sh'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/package.bash'
+[2.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower/package.zsh'
+[2.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/colcon-core/packages/follower)
+[2.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_controller', 'pythonpath_develop')
+[2.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/build --no-deps symlink_data
+[2.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/share/line_follower_controller/hook/pythonpath_develop.ps1'
+[2.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/share/line_follower_controller/hook/pythonpath_develop.dsv'
+[2.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_controller/share/line_follower_controller/hook/pythonpath_develop.sh'
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller' for CMake module files
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller' for CMake config files
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib'
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/bin'
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib/pkgconfig/line_follower_controller.pc'
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/lib/python3.10/site-packages'
+[2.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_controller', 'pythonpath')
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/hook/pythonpath.ps1'
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/hook/pythonpath.dsv'
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/hook/pythonpath.sh'
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/bin'
+[2.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_controller)
+[2.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/package.ps1'
+[2.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/package.dsv'
+[2.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/package.sh'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/package.bash'
+[2.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/line_follower_controller/package.zsh'
+[2.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_controller/share/colcon-core/packages/line_follower_controller)
+[2.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_description', 'pythonpath_develop')
+[2.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description/build --no-deps symlink_data
+[2.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description/share/line_follower_description/hook/pythonpath_develop.ps1'
+[2.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description/share/line_follower_description/hook/pythonpath_develop.dsv'
+[2.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/line_follower_description/share/line_follower_description/hook/pythonpath_develop.sh'
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description' for CMake module files
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description' for CMake config files
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/lib'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/bin'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/lib/pkgconfig/line_follower_description.pc'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/lib/python3.10/site-packages'
+[2.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('line_follower_description', 'pythonpath')
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/hook/pythonpath.ps1'
+[2.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/hook/pythonpath.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/hook/pythonpath.sh'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/bin'
+[2.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(line_follower_description)
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/package.ps1'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/package.dsv'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/package.sh'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/package.bash'
+[2.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/line_follower_description/package.zsh'
+[2.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/benja/turtlebot3_ws/src/ros2-line-follower/install/line_follower_description/share/colcon-core/packages/line_follower_description)
+[2.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.987s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.987s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.993s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.006s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/local_setup.ps1'
+[3.008s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/_local_setup_util_ps1.py'
+[3.009s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/setup.ps1'
+[3.012s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/local_setup.sh'
+[3.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/_local_setup_util_sh.py'
+[3.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/setup.sh'
+[3.015s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/local_setup.bash'
+[3.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/setup.bash'
+[3.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/local_setup.zsh'
+[3.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/benja/turtlebot3_ws/src/ros2-line-follower/install/setup.zsh'

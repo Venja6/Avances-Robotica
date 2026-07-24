@@ -1,0 +1,30 @@
+[1.772s] Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/build --no-deps symlink_data
+[2.067s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.067s]   warnings.warn(
+[2.095s] running develop
+[2.264s] running egg_info
+[2.264s] creating follower.egg-info
+[2.264s] writing follower.egg-info/PKG-INFO
+[2.265s] writing dependency_links to follower.egg-info/dependency_links.txt
+[2.265s] writing entry points to follower.egg-info/entry_points.txt
+[2.265s] writing requirements to follower.egg-info/requires.txt
+[2.265s] writing top-level names to follower.egg-info/top_level.txt
+[2.265s] writing manifest file 'follower.egg-info/SOURCES.txt'
+[2.266s] reading manifest file 'follower.egg-info/SOURCES.txt'
+[2.267s] writing manifest file 'follower.egg-info/SOURCES.txt'
+[2.268s] running build_ext
+[2.268s] Creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages/follower.egg-link (link to .)
+[2.269s] Installing follower_node script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/follower
+[2.269s] Installing line_map_node script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/follower
+[2.269s] Installing tester script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/follower
+[2.270s] 
+[2.270s] Installed /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower
+[2.270s] running symlink_data
+[2.270s] creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/ament_index
+[2.270s] creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/ament_index/resource_index
+[2.270s] creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/ament_index/resource_index/packages
+[2.270s] symbolically linking /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/resource/follower -> /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/ament_index/resource_index/packages
+[2.270s] symbolically linking /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/package.xml -> /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower
+[2.271s] symbolically linking /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/launch/new_track.launch.py -> /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower
+[2.271s] symbolically linking /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/worlds/new_track.world -> /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/share/follower
+[2.301s] Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/build --no-deps symlink_data

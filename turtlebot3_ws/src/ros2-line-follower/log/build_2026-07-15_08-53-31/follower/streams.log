@@ -1,0 +1,21 @@
+[1.570s] Invoking command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/build --no-deps symlink_data
+[1.832s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.832s]   warnings.warn(
+[1.861s] running develop
+[2.044s] running egg_info
+[2.044s] writing follower.egg-info/PKG-INFO
+[2.044s] writing dependency_links to follower.egg-info/dependency_links.txt
+[2.045s] writing entry points to follower.egg-info/entry_points.txt
+[2.045s] writing requirements to follower.egg-info/requires.txt
+[2.045s] writing top-level names to follower.egg-info/top_level.txt
+[2.046s] reading manifest file 'follower.egg-info/SOURCES.txt'
+[2.047s] writing manifest file 'follower.egg-info/SOURCES.txt'
+[2.048s] running build_ext
+[2.049s] Creating /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages/follower.egg-link (link to .)
+[2.049s] Installing follower_node script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/follower
+[2.050s] Installing line_map_node script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/follower
+[2.050s] Installing tester script to /home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/follower
+[2.050s] 
+[2.050s] Installed /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower
+[2.050s] running symlink_data
+[2.079s] Invoked command in '/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/ros2-line-follower/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/ros2-line-follower/build/follower/build --no-deps symlink_data
