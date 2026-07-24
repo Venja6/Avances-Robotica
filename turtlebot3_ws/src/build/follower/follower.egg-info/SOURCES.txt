@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+follower/__init__.py
+follower/follower_node.py
+follower/line_map_node.py
+follower/test_topic.py
+follower.egg-info/PKG-INFO
+follower.egg-info/SOURCES.txt
+follower.egg-info/dependency_links.txt
+follower.egg-info/entry_points.txt
+follower.egg-info/requires.txt
+follower.egg-info/top_level.txt
+follower.egg-info/zip-safe
+launch/new_track.launch.py
+resource/follower
+worlds/new_track.world

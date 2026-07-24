@@ -1,0 +1,31 @@
+[2.934s] Invoking command in '/home/benja/turtlebot3_ws/src/build/trajectory_recorder': PYTHONPATH=/home/benja/turtlebot3_ws/src/build/trajectory_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/install/trajectory_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/build/trajectory_recorder/build --no-deps symlink_data
+[3.570s] running develop
+[3.983s] running egg_info
+[3.983s] creating trajectory_recorder.egg-info
+[3.983s] writing trajectory_recorder.egg-info/PKG-INFO
+[3.987s] writing dependency_links to trajectory_recorder.egg-info/dependency_links.txt
+[3.987s] writing entry points to trajectory_recorder.egg-info/entry_points.txt
+[3.987s] writing requirements to trajectory_recorder.egg-info/requires.txt
+[3.987s] writing top-level names to trajectory_recorder.egg-info/top_level.txt
+[3.987s] writing manifest file 'trajectory_recorder.egg-info/SOURCES.txt'
+[3.988s] reading manifest file 'trajectory_recorder.egg-info/SOURCES.txt'
+[3.990s] writing manifest file 'trajectory_recorder.egg-info/SOURCES.txt'
+[3.994s] running build_ext
+[3.996s] Creating /home/benja/turtlebot3_ws/src/install/trajectory_recorder/lib/python3.10/site-packages/trajectory-recorder.egg-link (link to .)
+[3.997s] Installing optimizer script to /home/benja/turtlebot3_ws/src/install/trajectory_recorder/lib/trajectory_recorder
+[3.997s] Installing optimizer_node script to /home/benja/turtlebot3_ws/src/install/trajectory_recorder/lib/trajectory_recorder
+[3.998s] Installing player_node script to /home/benja/turtlebot3_ws/src/install/trajectory_recorder/lib/trajectory_recorder
+[3.998s] Installing recorder_node script to /home/benja/turtlebot3_ws/src/install/trajectory_recorder/lib/trajectory_recorder
+[3.999s] 
+[4.000s] Installed /home/benja/turtlebot3_ws/src/build/trajectory_recorder
+[4.000s] running symlink_data
+[4.001s] creating /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/ament_index
+[4.001s] creating /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/ament_index/resource_index
+[4.001s] creating /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/ament_index/resource_index/packages
+[4.002s] symbolically linking /home/benja/turtlebot3_ws/src/build/trajectory_recorder/resource/trajectory_recorder -> /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/ament_index/resource_index/packages
+[4.002s] symbolically linking /home/benja/turtlebot3_ws/src/build/trajectory_recorder/package.xml -> /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/trajectory_recorder
+[4.003s] creating /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/trajectory_recorder/launch
+[4.003s] symbolically linking /home/benja/turtlebot3_ws/src/build/trajectory_recorder/launch/record.launch.py -> /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/trajectory_recorder/launch
+[4.004s] symbolically linking /home/benja/turtlebot3_ws/src/build/trajectory_recorder/launch/optimize.launch.py -> /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/trajectory_recorder/launch
+[4.004s] symbolically linking /home/benja/turtlebot3_ws/src/build/trajectory_recorder/launch/play.launch.py -> /home/benja/turtlebot3_ws/src/install/trajectory_recorder/share/trajectory_recorder/launch
+[4.063s] Invoked command in '/home/benja/turtlebot3_ws/src/build/trajectory_recorder' returned '0': PYTHONPATH=/home/benja/turtlebot3_ws/src/build/trajectory_recorder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/install/trajectory_recorder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/build/trajectory_recorder/build --no-deps symlink_data

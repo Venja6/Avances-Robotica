@@ -1,0 +1,30 @@
+[1.215s] Invoking command in '/home/benja/turtlebot3_ws/src/build/follower': AMENT_PREFIX_PATH=/home/benja/turtlebot3_ws/src/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/benja/turtlebot3_ws/src/install/turtlebot3_gazebo:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/benja/turtlebot3_ws/src/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/build/follower/build --no-deps symlink_data
+[1.522s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.522s]   warnings.warn(
+[1.557s] running develop
+[1.781s] running egg_info
+[1.781s] creating follower.egg-info
+[1.781s] writing follower.egg-info/PKG-INFO
+[1.782s] writing dependency_links to follower.egg-info/dependency_links.txt
+[1.782s] writing entry points to follower.egg-info/entry_points.txt
+[1.782s] writing requirements to follower.egg-info/requires.txt
+[1.782s] writing top-level names to follower.egg-info/top_level.txt
+[1.782s] writing manifest file 'follower.egg-info/SOURCES.txt'
+[1.786s] reading manifest file 'follower.egg-info/SOURCES.txt'
+[1.787s] writing manifest file 'follower.egg-info/SOURCES.txt'
+[1.789s] running build_ext
+[1.789s] Creating /home/benja/turtlebot3_ws/src/install/follower/lib/python3.10/site-packages/follower.egg-link (link to .)
+[1.790s] Installing follower_node script to /home/benja/turtlebot3_ws/src/install/follower/lib/follower
+[1.791s] Installing line_map_node script to /home/benja/turtlebot3_ws/src/install/follower/lib/follower
+[1.791s] Installing tester script to /home/benja/turtlebot3_ws/src/install/follower/lib/follower
+[1.791s] 
+[1.791s] Installed /home/benja/turtlebot3_ws/src/build/follower
+[1.791s] running symlink_data
+[1.791s] creating /home/benja/turtlebot3_ws/src/install/follower/share/ament_index
+[1.792s] creating /home/benja/turtlebot3_ws/src/install/follower/share/ament_index/resource_index
+[1.792s] creating /home/benja/turtlebot3_ws/src/install/follower/share/ament_index/resource_index/packages
+[1.792s] symbolically linking /home/benja/turtlebot3_ws/src/build/follower/resource/follower -> /home/benja/turtlebot3_ws/src/install/follower/share/ament_index/resource_index/packages
+[1.792s] symbolically linking /home/benja/turtlebot3_ws/src/build/follower/package.xml -> /home/benja/turtlebot3_ws/src/install/follower/share/follower
+[1.792s] symbolically linking /home/benja/turtlebot3_ws/src/build/follower/launch/new_track.launch.py -> /home/benja/turtlebot3_ws/src/install/follower/share/follower
+[1.792s] symbolically linking /home/benja/turtlebot3_ws/src/build/follower/worlds/new_track.world -> /home/benja/turtlebot3_ws/src/install/follower/share/follower
+[1.827s] Invoked command in '/home/benja/turtlebot3_ws/src/build/follower' returned '0': AMENT_PREFIX_PATH=/home/benja/turtlebot3_ws/src/install/turtlebot3_gazebo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/benja/turtlebot3_ws/src/install/turtlebot3_gazebo:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/benja/turtlebot3_ws/src/build/follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/benja/turtlebot3_ws/src/install/follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/benja/turtlebot3_ws/src/build/follower/build --no-deps symlink_data

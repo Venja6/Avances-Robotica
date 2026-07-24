@@ -1,0 +1,45 @@
+[0.056s] Invoking command in '/home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer
+[1.629s] -- The C compiler identification is GNU 11.4.0
+[1.629s] -- The CXX compiler identification is GNU 11.4.0
+[1.629s] -- Detecting C compiler ABI info
+[1.629s] -- Detecting C compiler ABI info - done
+[1.629s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.630s] -- Detecting C compile features
+[1.630s] -- Detecting C compile features - done
+[1.631s] -- Detecting CXX compiler ABI info
+[1.632s] -- Detecting CXX compiler ABI info - done
+[1.632s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.633s] -- Detecting CXX compile features
+[1.633s] -- Detecting CXX compile features - done
+[1.633s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.633s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.633s] -- Configuring done
+[1.633s] -- Generating done
+[1.634s] -- Build files have been written to: /home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer
+[1.681s] Invoked command in '/home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake /home/benja/turtlebot3_ws/src/turtlebot3/turtlebot3_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer
+[1.683s] Invoking command in '/home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer -- -j12 -l12
+[1.729s] Invoked command in '/home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer -- -j12 -l12
+[1.732s] Invoking command in '/home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer
+[1.753s] -- Install configuration: ""
+[1.753s] -- Execute custom install script
+[1.754s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.771s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.788s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.807s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.828s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.847s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.864s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.889s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.905s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.930s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.988s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[2.016s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[2.048s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[2.082s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[2.101s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[2.134s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[2.162s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[2.213s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[2.253s] -- Symlinking: /home/benja/turtlebot3_ws/src/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[2.318s] Invoked command in '/home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/src/build/turtlebot3_cartographer

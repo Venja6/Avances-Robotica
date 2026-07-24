@@ -1,0 +1,36 @@
+[0.067s] Invoking command in '/home/benja/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/turtlebot3_description -- -j12 -l12
+[1.131s] Invoked command in '/home/benja/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --build /home/benja/turtlebot3_ws/build/turtlebot3_description -- -j12 -l12
+[1.141s] Invoking command in '/home/benja/turtlebot3_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/turtlebot3_description
+[1.181s] -- Install configuration: ""
+[1.183s] -- Execute custom install script
+[1.183s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[1.183s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[1.184s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[1.185s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[1.185s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[1.185s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[1.185s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[1.185s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[1.185s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[1.186s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[1.186s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.187s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[1.187s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[1.187s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[1.187s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[1.188s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.188s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.188s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.188s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.189s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.192s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.193s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.194s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.194s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.194s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.195s] -- Symlinking: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.195s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.228s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.228s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.228s] -- Up-to-date symlink: /home/benja/turtlebot3_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.283s] Invoked command in '/home/benja/turtlebot3_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/benja/turtlebot3_ws/install/turtlebot3_teleop:/home/benja/turtlebot3_ws/install/turtlebot3_example:/home/benja/turtlebot3_ws/install/follower:/home/benja/turtlebot3_ws/install/line_follower_description:/home/benja/turtlebot3_ws/install/line_follower_controller:/opt/ros/humble /usr/bin/cmake --install /home/benja/turtlebot3_ws/build/turtlebot3_description

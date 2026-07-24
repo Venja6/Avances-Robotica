@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: trajectory-recorder
+Version: 1.0.0
+Summary: Grabacion y reproduccion de trayectorias para TurtleBot3 con correccion PID basada en odometria.
+Home-page: UNKNOWN
+Maintainer: user
+Maintainer-email: user@example.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

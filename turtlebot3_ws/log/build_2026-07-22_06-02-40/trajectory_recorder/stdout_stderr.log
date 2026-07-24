@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating trajectory_recorder.egg-info
+writing trajectory_recorder.egg-info/PKG-INFO
+writing dependency_links to trajectory_recorder.egg-info/dependency_links.txt
+writing entry points to trajectory_recorder.egg-info/entry_points.txt
+writing requirements to trajectory_recorder.egg-info/requires.txt
+writing top-level names to trajectory_recorder.egg-info/top_level.txt
+writing manifest file 'trajectory_recorder.egg-info/SOURCES.txt'
+reading manifest file 'trajectory_recorder.egg-info/SOURCES.txt'
+writing manifest file 'trajectory_recorder.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/benja/turtlebot3_ws/install/trajectory_recorder/lib/python3.10/site-packages/trajectory-recorder.egg-link (link to .)
+Installing optimizer script to /home/benja/turtlebot3_ws/install/trajectory_recorder/lib/trajectory_recorder
+Installing optimizer_node script to /home/benja/turtlebot3_ws/install/trajectory_recorder/lib/trajectory_recorder
+Installing player_node script to /home/benja/turtlebot3_ws/install/trajectory_recorder/lib/trajectory_recorder
+Installing recorder_node script to /home/benja/turtlebot3_ws/install/trajectory_recorder/lib/trajectory_recorder
+
+Installed /home/benja/turtlebot3_ws/build/trajectory_recorder
+running symlink_data
+creating /home/benja/turtlebot3_ws/install/trajectory_recorder/share/ament_index
+creating /home/benja/turtlebot3_ws/install/trajectory_recorder/share/ament_index/resource_index
+creating /home/benja/turtlebot3_ws/install/trajectory_recorder/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/build/trajectory_recorder/resource/trajectory_recorder -> /home/benja/turtlebot3_ws/install/trajectory_recorder/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/build/trajectory_recorder/package.xml -> /home/benja/turtlebot3_ws/install/trajectory_recorder/share/trajectory_recorder
+creating /home/benja/turtlebot3_ws/install/trajectory_recorder/share/trajectory_recorder/launch
+symbolically linking /home/benja/turtlebot3_ws/build/trajectory_recorder/launch/record.launch.py -> /home/benja/turtlebot3_ws/install/trajectory_recorder/share/trajectory_recorder/launch
+symbolically linking /home/benja/turtlebot3_ws/build/trajectory_recorder/launch/optimize.launch.py -> /home/benja/turtlebot3_ws/install/trajectory_recorder/share/trajectory_recorder/launch
+symbolically linking /home/benja/turtlebot3_ws/build/trajectory_recorder/launch/play.launch.py -> /home/benja/turtlebot3_ws/install/trajectory_recorder/share/trajectory_recorder/launch

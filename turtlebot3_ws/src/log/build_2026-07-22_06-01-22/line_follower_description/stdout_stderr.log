@@ -1,0 +1,54 @@
+running develop
+running egg_info
+creating line_follower_description.egg-info
+writing line_follower_description.egg-info/PKG-INFO
+writing dependency_links to line_follower_description.egg-info/dependency_links.txt
+writing entry points to line_follower_description.egg-info/entry_points.txt
+writing requirements to line_follower_description.egg-info/requires.txt
+writing top-level names to line_follower_description.egg-info/top_level.txt
+writing manifest file 'line_follower_description.egg-info/SOURCES.txt'
+reading manifest file 'line_follower_description.egg-info/SOURCES.txt'
+writing manifest file 'line_follower_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/benja/turtlebot3_ws/src/install/line_follower_description/lib/python3.10/site-packages/line-follower-description.egg-link (link to .)
+
+Installed /home/benja/turtlebot3_ws/src/build/line_follower_description
+running symlink_data
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/ament_index
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/ament_index/resource_index
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/resource/line_follower_description -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/ament_index/resource_index/packages
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/package.xml -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/launch
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/drone.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/robot.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/camera.plugin.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/line_follower.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/line_follower.gazebo.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/plugins.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/common.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/sample_urdf/variables.urdf.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/sample_urdf
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/robot_urdf/base_footprint.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/robot_urdf/camera.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/robot_urdf/line_follower.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/robot_urdf/line_follower.trans -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/robot_urdf/plugins.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/robot_urdf/line_follower.gazebo -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/robot_urdf/materials.xacro -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/robot_urdf
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_clamp_3_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_clamp_2_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_1_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_clamp_4_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_3_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/base_link.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_4_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_2_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/depth_camera_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/meshes/wheel_clamp_1_1.stl -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/meshes
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/config
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/config/old_display.rviz -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/config
+symbolically linking /home/benja/turtlebot3_ws/src/build/line_follower_description/config/display.rviz -> /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/config
+creating /home/benja/turtlebot3_ws/src/install/line_follower_description/share/line_follower_description/worlds

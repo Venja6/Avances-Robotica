@@ -1,0 +1,6 @@
+[console_scripts]
+optimizer = trajectory_recorder.optimizer:main
+optimizer_node = trajectory_recorder.optimizer:main
+player_node = trajectory_recorder.player:main
+recorder_node = trajectory_recorder.recorder:main
+
