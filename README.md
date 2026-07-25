@@ -3,6 +3,7 @@ Repositorio para no perder avances y compartir el estado del trabajo
 
 # Nuevos nodos 
 Line follower/follower (Importado de https://github.com/gabrielnhn/ros2-line-follower)
+
 trajectory recorder (Creado para grabar movimientos, elegir y reproducir movimientos)
 
 # Comandos
